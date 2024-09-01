@@ -12,8 +12,14 @@ public class Main {
     public static void main (String [] args){
         
         Salary sal = new Salary();
+        Grade gr = new Grade();
         
-        sal.Employees();
+        
+        System.out.println("Enter A Choice: ");
+        
+   gr.Students();
+        
+//  sal.Employees();
         
     //    Grades gr = new Grades();
     //    

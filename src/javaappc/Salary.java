@@ -12,7 +12,7 @@ public class Salary {
      public static void Employees(){
         
         Salaries[] sal = new Salaries[100];
-        Salaries sala = new Salaries();
+        
         Scanner sr = new Scanner(System.in);
         
         int ID, rate, h_worked, total_ded, num_emp;
