@@ -5,21 +5,45 @@
  */
 package javaappc;
 
-
+import java.util.*;
 public class Main {
     
     
     public static void main (String [] args){
         
+        
         Salary sal = new Salary();
         Grade gr = new Grade();
+        Product pr = new Product();
+        NetPay npg = new NetPay();
+        Account acc = new Account();
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Case 1: Students \nCase 2: Employees \nCase 3: Products");
+        
+        System.out.print("\nEnter A Choice: ");
+        int choice = sc.nextInt();
         
         
-        System.out.println("Enter A Choice: ");
         
-   gr.Students();
+        switch(choice){
+            case 1:
+                gr.Students();
+            case 2:
+                sal.Employees();
+            case 3: 
+                pr.Products();
+            case 4:
+                npg.getPay();
+            case 5:
+                acc.Accounts();
+                
+            default: 
+                
+        }
         
-//  sal.Employees();
+  
+        
         
     //    Grades gr = new Grades();
     //    
