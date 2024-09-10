@@ -62,7 +62,7 @@ public class Salary {
          System.out.println("---------------------------------------------------------------------------------------\n");
          System.out.printf("Total Salary for Request: %.2f\n", Salary);
          System.out.printf("Total Deductions: %.2f\n", TDeduc);
-         System.out.printf("Total Salary for Request: %.2f\n", (Salary - TDeduc));
+         System.out.printf("Total Salary for Release: %.2f\n", (Salary - TDeduc));
          
     }
 }

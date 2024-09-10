@@ -9,6 +9,7 @@ import java.util.*;
 public class Main {
     
     
+    
     public static void main (String [] args){
         
         
@@ -19,30 +20,42 @@ public class Main {
         Account acc = new Account();
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Case 1: Students \nCase 2: Employees \nCase 3: Products");
+        int choice;
+        
+        
+      
+        System.out.println("Case 1: Students \nCase 2: Employees \nCase 3: Products \nCase 4: Net Pay \nCase 5: Accounts");
         
         System.out.print("\nEnter A Choice: ");
-        int choice = sc.nextInt();
+        choice = sc.nextInt();
         
         
         
         switch(choice){
             case 1:
                 gr.Students();
+                break;
             case 2:
                 sal.Employees();
+                break;
             case 3: 
                 pr.Products();
+                break;
             case 4:
                 npg.getPay();
+                break;
             case 5:
                 acc.Accounts();
+                break;
+            default:
+                System.out.print("\tINVALID CHOICE!");
                 
-            default: 
+            
                 
         }
+      
         
-  
+  }
         
         
     //    Grades gr = new Grades();
@@ -67,5 +80,4 @@ public class Main {
        
 
 
-}
 }

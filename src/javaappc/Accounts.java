@@ -29,16 +29,12 @@ public class Accounts {
        
        public void viewAccounts(){
            
-           System.out.printf("| %-10d | %-10s | %-10s | %-10s | %-10s | %-10s | ", this.ID, this.F_name, this.L_name, this.eml, this.usern, this.pass );
+           System.out.printf("| %-10d | %-10s | %-10s | %-30s | %-10s | %-15s | \n", this.ID, this.F_name, this.L_name, this.eml, this.usern, this.pass );
            
-           
-           
+           //commit
        } 
 
-    int getID() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
+    
    
     
 }
