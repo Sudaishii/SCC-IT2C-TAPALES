@@ -5,7 +5,7 @@ package javaappc;
 
 public class Grades {
         
-    int id;
+    int id = 0;
     String name;
     float p, m, pf, f;
     
