@@ -20,7 +20,7 @@ public class Products {
         
         this.profit = (float)this.sold * this.price;
         Stat = (stock > 0) ? "Available" : "Out of Stock";
-        this.expP = this.price * (float)this.sold;
+        this.expP = this.price * (float)this.stock;
         
         System.out.printf(" %-12d | %-12s | %-10.2f | %-10d | %-10d | %-10.2f | %-12s | %-12.2f |\n", this.pID, this.name, this.price, this.sold, this.stock, this.profit, Stat, this.expP);
         
